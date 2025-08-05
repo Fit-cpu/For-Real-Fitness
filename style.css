@@ -1,0 +1,96 @@
+/* Global Styles */
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  background: #fff;
+  color: #111;
+  line-height: 1.6;
+}
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  padding: 40px 0;
+}
+h1, h2, h3 {
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+a {
+  text-decoration: none;
+  color: #00C46A;
+}
+
+/* Hero Section */
+.hero {
+  background: #000;
+  color: #fff;
+  text-align: center;
+  padding: 100px 20px;
+}
+.hero h1 {
+  font-size: 3rem;
+}
+.hero p {
+  font-size: 1.2rem;
+}
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  background: #00C46A;
+  color: #fff;
+  padding: 12px 30px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+.btn:hover {
+  background: #009A52;
+}
+
+/* About Section */
+.about {
+  background: #f4f4f4;
+  text-align: center;
+}
+
+/* Plans Section */
+.plans {
+  text-align: center;
+}
+.plan-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+}
+.card {
+  background: #eee;
+  padding: 20px;
+  border-radius: 10px;
+  flex: 1;
+  min-width: 250px;
+}
+
+/* Testimonials */
+.testimonials {
+  background: #f9f9f9;
+  text-align: center;
+}
+.testimonial {
+  margin-bottom: 20px;
+}
+
+/* Contact */
+.contact {
+  background: #000;
+  color: #fff;
+  text-align: center;
+}
+
+/* Footer */
+footer {
+  background: #111;
+  color: #aaa;
+  text-align: center;
+  padding: 20px 0;
+}
